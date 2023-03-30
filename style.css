@@ -1,0 +1,740 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.8)) , url(img/intro-bg.jpg) ;
+    background-size: cover; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.nav-bar .home{
+
+    color:aqua; 
+}
+
+.nav{
+width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    padding: 25px;
+    width: 30%;
+}
+
+.nav-bar{
+padding: 25px 50px;
+    width: 70%;
+
+    color: white; 
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content:flex-start ;
+}
+
+.nav-bar ul li{
+list-style: none;
+padding-top: 0 ;
+padding-right: 30px;
+}
+
+.nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+font-size: 1.1rem;
+}
+
+.nav-bar ul li a:hover{
+    color: aqua;
+    transition: all 0.5s;
+}
+
+
+.content-header{
+
+    align-self: flex-start;
+font-size: 2rem;
+text-align: center;
+color: aliceblue;
+}
+
+.content-header button{
+    background-color: transparent;
+    margin: 1.2rem 0px;
+    padding: 1rem 40px;
+    border: 2px solid aqua;
+    border-radius: 1.5rem;
+transition: all 1s;
+}
+.hover:hover {
+    background-color: aqua;
+
+}
+.hover:hover a{
+
+    color: #f8f9fa;
+}
+
+.content-header a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: aqua;
+}
+
+.content-header H2{
+margin: 10px 0px;
+text-align: center;
+font-size: 5rem;
+}
+
+.content-header span{
+margin: 1rem 0px;
+font-weight: 600;
+
+}
+
+.content-header p{
+margin: 1rem 0px;
+font-size: 1.5rem;
+
+}
+
+
+header .icon1{
+    position: fixed;
+background-color: white;
+font-size: 1.2rem;
+padding: 10px;
+color: white;
+bottom: 50%;
+    right: 0px;
+}
+
+header .icon2{
+    position: absolute;
+/* background-color: rgb(27, 11, 204); */
+font-size: 1.2rem;
+/* padding: 40px; */
+color: aqua;
+bottom: 60px;
+animation: move 2s infinite ;
+
+}
+
+
+
+.dddd::after{
+    content: "";
+    animation: typing 2s infinite;
+    
+}
+@keyframes typing {
+    0%{
+        content: "s|" ;
+    }
+
+    20%{
+        content: "si|" ;
+    }
+    25%{
+        content: "simo|";
+    }
+
+    40%{
+        content: "simon|";
+    }
+
+    60%{
+        content: "simo|";
+    }
+
+    65%{
+        content: "sim|";
+    }
+
+    70%{
+        content: "si|";
+    }
+
+    80%{
+        content: "s|";
+    }
+
+    100%{
+        content: "simos|";
+    }
+}
+
+.tital{
+
+    margin:3rem 0px;
+    text-align: center;
+    position: relative;
+    }
+
+    .tital span{
+    color: rgba(0, 0, 0, 0.089); ; 
+    font-weight: 600;
+    font-size: 8rem;
+    position: relative;
+    }
+
+    .tital h2{
+    position: absolute;
+    font-size: 2.7rem;
+    top: 35%;
+    right:50%;
+    transform: translate(50%);
+
+    } 
+
+    .tital h2::after{
+    content: "";
+    position: absolute;
+    width: 85px;
+    height: 3px;
+    left:35%;
+    bottom:-5px;
+    border-top: 3px solid aqua ;
+    }
+
+    .contnt-sec1{
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .about{
+        width: 70%;
+    padding: 20px; 
+    }
+
+    .about h2{
+        margin: 20px 0px;
+        font-size: 2rem;
+    }
+
+    .about p{
+        margin: 20px 0px;
+        font-size: 1.2rem;
+    }
+
+    .ditels{
+        width: 30%;
+    
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .ditels span{
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    .ditels p{
+        margin: 20px 0px;
+        font-size: 1.1rem; 
+        padding-bottom: 10px;
+        
+    }
+    .ditels .bord{
+        border-bottom:1px dotted rgba(0, 0, 0, 0.356);
+        
+    }
+    .bord a{
+        color: aqua;
+    }
+    .ditels a{
+        text-decoration: none;
+    }
+    .bto{
+        background-color: aqua;
+        padding:15px 50px;
+        border-radius: 40px;
+        margin-top: 10px;
+        font-size: 1.2rem;
+        border: none;
+    transition: all 1s;
+    }
+    .bto:hover{
+    background-color: aqua;
+    }
+    .bto a{
+        color: aliceblue;
+    }
+    .number-sec1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    }
+    .number{
+
+        margin: 2.2rem 0px;
+        width: 25%;
+        padding: 1.2;
+    
+        
+    }
+    .nunber-bord{
+        border-right: 1px dotted rgba(0, 0, 0, 0.158);
+    }
+    .number span{
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin: 10px 0px;
+        color: gray;
+    }
+    .number p{
+        font-size: 1.2rem;
+        color: gray;
+        margin: 10px 0px;
+    }
+    .sec2{
+        background-color: white;
+    }
+    .content-sec2{
+        width: 70%;
+        
+        margin:auto ;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-between;
+    
+    }
+    .do{
+        display: flex;
+        width: 49%;
+        margin: 0px 0px 3rem 0px;
+    }
+    .do i{
+        width: 12%;
+        
+        text-align: center;
+        font-size: 2rem;
+        color: aqua;
+        
+    }
+    .do i{
+        
+        background-color: white;
+        padding: 1rem;
+    }
+
+    .do .content-what{
+    width: 88%;
+    padding-left: 15px;
+    }
+    .content-what h3{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    }
+    .content-what p{
+    font-size: 1rem;
+
+    }
+
+    .content-sec3{
+        
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .SUMMARY-tetil{
+        width: 48%;
+        margin-bottom: 1.4rem;
+        font-size: 1.2rem;
+    }
+
+    .hdine2{
+        display:none;
+} 
+
+
+
+    .SUMMARY-content{
+    padding: 1.92rem;
+    width: 48%;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    margin-bottom: 30px;
+    }
+    .SUMMARY-content span{
+
+    background-color: aqua;
+    padding: 1px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    }
+
+    .SUMMARY-content .p-color{
+    color: crimson;
+    margin-bottom: 15px;
+    }
+
+    .SUMMARY-content h3{
+    margin: 20px 0px;
+    font-size: 1.5rem;
+    }
+
+    .content2-sec3{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .Skills-Title{
+        width: 100%;
+    }
+
+    .skills{
+
+        width: 48%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:1.3rem 0px;
+    position: relative;
+    
+    }
+    .skills::after{
+    content: "";
+        width: 65%;
+        height: 8px;
+        position: absolute;
+        background-color:aqua;
+    
+        bottom: 0px;
+    
+        border-radius: 5px 0 0px 5px;
+    
+    }
+    .skills::before{
+    content: "";
+        width: 35%;
+        height: 8px;
+        position: absolute;
+        background-color:white;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .skills2::after{
+    content: "";
+        width: 10%;
+
+    }
+    .skills3::after{
+    content: "";
+        width: 30%;
+
+    }
+    .skills4::after{
+    content: "";
+        width: 50%;
+
+    }
+    .skills4::before{
+        content: "";
+            width: 90%;
+        
+        }
+    .skills5::after{
+    content: "";
+        width: 60%;
+
+    }
+    .skills6::after{
+    content: "";
+        width: 89%;
+
+    }
+
+    .btn-sec3{
+    width: 80%;
+    /* background-color: aqua; */
+    margin: 3rem auto;
+    text-align: center;
+
+    }
+    .btn-sec3 button{
+        background-color: transparent;
+        margin: 1.5rem 0px;
+        padding: 1rem 4rem;
+        border-radius: 30px;
+        font-weight: 600;
+        border: 2px solid  white ;
+        font-size: 1.1rem;
+        transition: all 1s;
+    }
+    .btn-sec3 button:hover{
+        background-color: white; 
+    }
+    .btn-sec3 button a{
+
+    text-decoration: none;
+    color: white;
+
+    }
+    .btn-sec3 button a:hover{
+        color: #f7f7f7;
+
+    }
+    .sec4{
+        background-color: white;
+    padding-bottom: 2rem;
+    }
+    .links-sec4{
+        width: 80%;
+        /* background-color: aquamarine; */
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+    .links-sec4 li{
+    padding: 10px;
+    list-style: none;
+    }
+    .links-sec4 li:first-child{
+        padding: 10px;
+        list-style: none;
+        border-bottom: 3px solid aqua;
+        
+    }
+
+    .links-sec4 li a{
+    text-decoration: none;
+    }
+    .links-sec4 .color{
+    color: aqua;
+    
+    }
+
+    .imgs{
+        width: 80%;
+        margin: 2rem auto;
+        display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+    }
+
+    .colum1{
+        width:  32%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 1.3rem;
+    }
+    .content-imgs{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        
+    }
+
+    .content-imgs img{
+        width: 100%;
+        background-color: crimson;
+        transition: scale 1s;
+    }
+
+    .layer{
+        background-color: rgba(0, 0, 0, 0.541);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px; 
+        display: flex; 
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 1S ;
+    }
+
+    .layer h3{
+    width: 100%;
+    }
+
+
+
+    .layer p{
+    width: 100%;
+    }
+
+
+
+    .content-imgs:hover .layer{
+        opacity: 1;
+    }
+
+
+
+    .content-imgs:hover img{
+    scale: 1.1;
+    }
+
+
+
+    .prson{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    .prson-sec5{
+        background-color: white;
+        width: 49%;
+        padding: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img{
+        width: 15%;
+    }
+    .img img{
+    width: 100%;
+    border-radius: 50%;
+    }
+    .contnt{
+        width: 85%;
+    padding:1.3rem ;
+    }
+    .contnt h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 0.6rem;
+    
+    }
+    .contnt p{
+    color: black;
+    font-weight: 600;
+    padding-bottom: 0.6rem;
+    }
+
+    .contnt2-sec5{
+        font-weight: 600;
+        
+    }
+    .contnt2-sec5 i{
+        padding-top:20px;
+        color: gold;
+
+    }
+    .sec5{
+        padding-bottom: 50px;
+        
+    }
+    .sec6{
+        
+        padding: 40px 0px;
+    background-color: #f8f9fa;
+    }
+
+    .content-sec6{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    }
+
+    .address{
+    width:25%;
+    padding: 1.3rem;
+    }
+    .address h3{
+        width: 100%;
+        font-weight: 800;
+        font-size: 1.3rem;
+        padding-bottom: 1.3rem;
+    }
+    .address p{
+        width: 100%;
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .message{
+    width:75%;
+    padding: 1.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+    .message h3{
+    width: 100%;
+    font-weight: 800;
+    font-size: 1.2rem;
+    }
+    .message input{
+    width: 49%;
+    height: 40px;
+    margin: 20px 0px;
+    padding: 10px;
+    font-size: 1rem;
+    }
+    .message textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    }
+    .message button{
+
+        margin: auto;
+        padding: 20px 60px;
+        border-radius: 30px;
+        background-color: aqua;
+        border: none;
+        color: #f8f9fa;
+        font-size: 1rem;
+        border-radius: 40px;
+    }
+
+
+
+    .message button:hover{
+        color: black;
+    }
+
+
+.name1{
+    border-radius: 8px;
+}
+
+.email1{
+    border-radius: 8px;
+}
+.maserme2{
+    border-radius: 8px;
+}
